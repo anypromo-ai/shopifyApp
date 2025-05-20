@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Info\Info.csproj" />
+    <ProjectReference Include="..\Dac\Dac.csproj" />
+  </ItemGroup>
+</Project>
