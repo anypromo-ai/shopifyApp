@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Info\Info.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>
