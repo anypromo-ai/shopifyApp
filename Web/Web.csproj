@@ -1,0 +1,29 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D1BE35B8-5775-434E-BB99-BAD2702F7353}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <RootNamespace>ShopifyApp.Web</RootNamespace>
+    <AssemblyName>ShopifyApp.Web</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Info\Info.csproj" />
+    <ProjectReference Include="..\Dac\Dac.csproj" />
+    <ProjectReference Include="..\Biz\Biz.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+</Project>

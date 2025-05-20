@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopifyApp.Info", "Info/Info.csproj", "{69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopifyApp.Dac", "Dac/Dac.csproj", "{9EA8A5CD-BD7C-4151-AB3D-4281F8DA6F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopifyApp.Biz", "Biz/Biz.csproj", "{5A491412-2A52-4CC8-871D-B7E1271824D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopifyApp.Web", "Web/Web.csproj", "{D1BE35B8-5775-434E-BB99-BAD2702F7353}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}.Release|Any CPU.Build.0 = Release|Any CPU
+        {9EA8A5CD-BD7C-4151-AB3D-4281F8DA6F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {9EA8A5CD-BD7C-4151-AB3D-4281F8DA6F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {9EA8A5CD-BD7C-4151-AB3D-4281F8DA6F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {9EA8A5CD-BD7C-4151-AB3D-4281F8DA6F36}.Release|Any CPU.Build.0 = Release|Any CPU
+        {5A491412-2A52-4CC8-871D-B7E1271824D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {5A491412-2A52-4CC8-871D-B7E1271824D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {5A491412-2A52-4CC8-871D-B7E1271824D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {5A491412-2A52-4CC8-871D-B7E1271824D0}.Release|Any CPU.Build.0 = Release|Any CPU
+        {D1BE35B8-5775-434E-BB99-BAD2702F7353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {D1BE35B8-5775-434E-BB99-BAD2702F7353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {D1BE35B8-5775-434E-BB99-BAD2702F7353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {D1BE35B8-5775-434E-BB99-BAD2702F7353}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal

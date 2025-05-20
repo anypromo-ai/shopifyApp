@@ -1,0 +1,12 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{69AF608F-6E1B-4F29-84B0-FBD58A1FA70A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>ShopifyApp.Info</RootNamespace>
+    <AssemblyName>ShopifyApp.Info</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ProductInfo.cs" />
+  </ItemGroup>
+</Project>
