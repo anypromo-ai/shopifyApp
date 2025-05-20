@@ -1,3 +1,5 @@
+using System;
+
 namespace ShopifyApp.Info
 {
     public class ProductInfo
