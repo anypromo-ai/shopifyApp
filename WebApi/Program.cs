@@ -7,10 +7,10 @@ namespace ShopifyApp.WebApi
     {
         static void Main(string[] args)
         {
-            const string baseAddress = "http://localhost:9000/";
+            string baseAddress = "http://localhost:9000/";
             using (WebApp.Start<Startup>(url: baseAddress))
             {
-                Console.WriteLine($"Service running at {baseAddress}. Press Enter to stop.");
+                Console.WriteLine("API running at " + baseAddress);
                 Console.ReadLine();
             }
         }

@@ -6,4 +6,7 @@
     <ProjectReference Include="..\Info\Info.csproj" />
     <ProjectReference Include="..\Dac\Dac.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
 </Project>
