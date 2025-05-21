@@ -1,26 +1,16 @@
-# Shopify App (Node.js)
+# Shopify App
 
-This example demonstrates a layered Node.js project with Express. The layers follow the **Info**, **Dac**, and **Biz** naming convention.
+This is a minimal Express server demonstrating a layered architecture for syncing
+Shopify data. Models, services, and controllers are organized under the `src`
+directory.
 
-## Structure
+## Endpoints
 
-- `src/info` - data models (Info layer)
-- `src/dac` - data access code that retrieves data
-- `src/biz` - business logic that orchestrates calls to the Dac layer
-- `src/controllers` - request handlers used by the API
-- `src/routes` - Express routes
-- `index.js` - application entry point
+- `GET /products` - list products
+- `POST /orders/sync` - add a sample order (sync)
+- `GET /orders` - list orders
+- `POST /customers/sync` - add a sample customer (sync)
+- `GET /customers` - list customers
 
-## Running
-
-1. Install dependencies (requires internet access):
-   ```bash
-   npm install
-   ```
-2. Start the server:
-   ```bash
-   node index.js
-   ```
-3. Open `http://localhost:3000/products` to list products.
-
-The example uses in-memory data but the Dac layer can be extended to call Shopify APIs or a database.
+Use `node index.js` to start the server (requires installing dependencies with
+`npm install`).
